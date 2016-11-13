@@ -1,8 +1,9 @@
 .onLoad <- function(libname, pkgname) {
-  path <- system.file("", package="rtdda")
-  SnakeCharmR::py.exec("import sys")
-  SnakeCharmR::py.exec(paste0("sys.path.append('", path, "')"))
-  SnakeCharmR::py.exec("from tdda import rexpy")
+  SnakeCharmR::py.exec(sprintf(
+"import sys
+sys.path.append('%s')
+from tdda import rexpy",
+    system.file("", package="rtdda")))
 }
 
 #' Automatic discovery of regular-expression constraints
