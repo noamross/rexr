@@ -1,4 +1,4 @@
-Package: tdda
+Package: rtdda
 Type: Package
 Title: Wrapper for the Test-Drive Data Analysis Python Module
 Version: 0.0.0.9000
