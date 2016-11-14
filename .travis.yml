@@ -1,0 +1,18 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: R
+sudo: false
+cache: packages
+
+apt_packages:
+ - python-dev
+ - python
+
+r_github_packages:
+  - klutometis/roxygen
+  - jimhester/covr
+  - MangoTheCat/goodpractice
+
+after_success:
+  - Rscript -e 'library(covr);codecov()'
+  - Rscript -e 'library(goodpractice);gp(checks=all_checks()[!grepl("(rcmdcheck|covr)",all_checks())])'

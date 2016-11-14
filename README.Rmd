@@ -14,6 +14,11 @@ knitr::opts_chunk$set(
 
 # rtdda
 
+[![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
+[![MIT Licensed - Copyright 2016 EcoHealth Alliance](https://img.shields.io/badge/license-MIT-blue.svg)](https://badges.mit-license.org/)
+[![Travis-CI Build Status](https://travis-ci.org/noamross/rtdda.svg?branch=master)](https://travis-ci.org/noamross/rtdda)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/noamross/rtdda?branch=master&svg=true)](https://ci.appveyor.com/project/noamross/rtdda)
+
 This package wraps the [tdda python module](https://github.com/tdda/tdda),
 which generates automatic *constraints* on data sets given examples. More
 info can be found on [the TDDA blog](http://www.tdda.info/introducing-rexpy-automatic-discovery-of-regular-expressions).
