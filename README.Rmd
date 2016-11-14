@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 [![MIT Licensed - Copyright 2016 EcoHealth Alliance](https://img.shields.io/badge/license-MIT-blue.svg)](https://badges.mit-license.org/)
 [![Travis-CI Build Status](https://travis-ci.org/noamross/rtdda.svg?branch=master)](https://travis-ci.org/noamross/rtdda)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/noamross/rtdda?branch=master&svg=true)](https://ci.appveyor.com/project/noamross/rtdda)
+[![codecov](https://codecov.io/gh/noamross/rtdda/branch/master/graph/badge.svg)](https://codecov.io/gh/noamross/rtdda)
 
 This package wraps the [tdda python module](https://github.com/tdda/tdda),
 which generates automatic *constraints* on data sets given examples. More
