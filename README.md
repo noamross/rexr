@@ -7,7 +7,7 @@ rtdda
 
 This package wraps the [tdda python module](https://github.com/tdda/tdda), which generates automatic *constraints* on data sets given examples. More info can be found on [the TDDA blog](http://www.tdda.info/introducing-rexpy-automatic-discovery-of-regular-expressions).
 
-This is an extremely alpha package wrapping some pretty beta code, so use with caution!
+This is an extremely alpha package wrapping some pretty beta code, so use with caution! It does not currently work on Windows.
 
 Installation
 ------------

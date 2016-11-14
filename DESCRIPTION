@@ -3,7 +3,10 @@ Type: Package
 Title: Wrapper for the Test-Drive Data Analysis Python Module
 Version: 0.0.0.9000
 Authors@R: person("Noam", "Ross", , "noam.ross@gmail.com", role = c("aut", "cre"))
-Description: Tools for auto-generating data constraints
+Description: This package wraps the tdda python module. It generates automatic
+  constraints by learning from example data.
+URL: https://github.com/noamross/rtdda
+BugReports: https://github.com/noamross/rtdda/issues
 Imports: SnakeCharmR
 License: MIT + file LICENSE
 SystemRequirements: Python (>= 2.7) and Python headers and libraries
