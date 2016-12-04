@@ -1,10 +1,10 @@
-Package: rtdda
+Package: rexr
 Type: Package
-Title: Wrapper for the Test-Drive Data Analysis Python Module
+Title: Wrapper Rexpy Regular Exression Finder Python Module
 Version: 0.0.0.9000
 Authors@R: person("Noam", "Ross", , "noam.ross@gmail.com", role = c("aut", "cre"))
-Description: This package wraps the tdda python module. It generates automatic
-  constraints by learning from example data.
+Description: This package wraps the rexpy python module. It generates
+  automatic regex matches to sets of character strings.
 URL: https://github.com/noamross/rtdda
 BugReports: https://github.com/noamross/rtdda/issues
 Imports: SnakeCharmR

@@ -3,7 +3,7 @@
 "import sys
 sys.path.append('%s')
 from tdda import rexpy",
-    system.file("", package="rtdda")))
+    system.file("", package="rexr")))
 }
 
 #' Automatic discovery of regular-expression constraints
